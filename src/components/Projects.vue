@@ -1,7 +1,30 @@
 <template>
   <div class="projects container-fluid section">
     <h2 class="section-header">PROJECTS</h2>
-    <div class="row section-width cards-wrapper">
+    <div class="row section-width">
+      <div class="col-md-4">
+        <div class="card text-white bg-dark mb-3">
+          <img class="card-img-top" src="../assets/portfolio.png" alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">HS Portfolio</h5>
+            <p class="card-text">A portfolio website.</p>
+            <p class="card-text">
+              Built using
+              <span class="highlight">Vue.js</span>. Hosted on
+              <span class="highlight">Heroku</span>.
+            </p>
+            <div>
+              <a href="https://hs-portfolio.herokuapp.com/" target="_blank" class="card-link">Demo</a>
+              <a
+                href="https://github.com/huishun98/portfolio"
+                target="_blank"
+                class="card-link"
+              >Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="col-md-4">
         <div class="card text-white bg-dark mb-3">
           <img class="card-img-top" src="../assets/telebot.png" alt="Card image cap" />
@@ -51,32 +74,9 @@
           </div>
         </div>
       </div>
-
-      <div class="col-md-4">
-        <div class="card text-white bg-dark mb-3">
-          <img class="card-img-top" src="../assets/portfolio.png" alt="Card image cap" />
-          <div class="card-body">
-            <h5 class="card-title">HS Portfolio</h5>
-            <p class="card-text">A portfolio website.</p>
-            <p class="card-text">
-              Built using
-              <span class="highlight">Vue.js</span>. Hosted on
-              <span class="highlight">Heroku</span>.
-            </p>
-            <div>
-              <a href="https://hs-portfolio.herokuapp.com/" target="_blank" class="card-link">Demo</a>
-              <a
-                href="https://github.com/huishun98/portfolio"
-                target="_blank"
-                class="card-link"
-              >Code</a>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
 
-    <div class="row section-width cards-wrapper">
+    <div class="row section-width">
       <div class="col-md-4">
         <div class="card text-white bg-dark mb-3">
           <img class="card-img-top" src="../assets/API.png" alt="Card image cap" />

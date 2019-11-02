@@ -15,10 +15,6 @@
     height: 100%;
 }
 
-.row.cards-wrapper {
-    margin-bottom: 20px;
-}
-
 .card-body {
     display: flex;
     flex-direction: column;
@@ -28,6 +24,10 @@
 .highlight {
     font-weight: bold;
     font-style: italic;
+}
+
+.col-md-4 {
+    margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 768px) {
