@@ -61,7 +61,8 @@
             <p class="card-text">A scoreboard designed for fencing bouts.</p>
             <p class="card-text">
               Built using
-              <span class="highlight">React Native</span>.
+              <span class="highlight">React Native</span> and
+              <span class="highlight">Firebase</span>.
             </p>
             <div>
               <a
