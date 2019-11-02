@@ -3,7 +3,7 @@
     <div>
       <h1>HUI SHUN</h1>
 
-      <a class="btn btn-outline-light" href="../assets/resume.pdf" download>Download Resume</a>
+      <a class="btn btn-outline-light" href="/resume.pdf" download>Download Resume</a>
 
       <div class="social-media-buttons-group">
         <a href="https://github.com/huishun98" target="_blank" class="svg-link">
@@ -51,15 +51,8 @@
 </template>
 
 <script>
-// import pdf from "../assets/resume.pdf";
-
 export default {
   name: "Banner"
-  // data: () => {
-  //   {
-  //     pdf
-  //   }
-  // }
 };
 </script>
 

@@ -6,6 +6,15 @@
     color: orange;
     transition: opacity 0.2s;
 }
+
 .card-link:hover {
     opacity: 0.5;
+}
+
+.card {
+    height: 100%;
+}
+
+.row.cards-wrapper {
+    margin-bottom: 20px;
 }
