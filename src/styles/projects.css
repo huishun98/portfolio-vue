@@ -18,3 +18,21 @@
 .row.cards-wrapper {
     margin-bottom: 20px;
 }
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.highlight {
+    font-weight: bold;
+    font-style: italic;
+}
+
+@media only screen and (min-width: 768px) {
+    .card-img-top {
+        height: 180px;
+        object-fit: cover;
+    }
+}
