@@ -6,7 +6,13 @@
       <a class="btn btn-outline-light" href="/resume.pdf" download>Download Resume</a>
 
       <div class="social-media-buttons-group">
-        <a href="https://github.com/huishun98" target="_blank" class="svg-link">
+        <a
+          href="https://github.com/huishun98"
+          target="_blank"
+          class="svg-link"
+          v-b-tooltip.hover
+          title="Github"
+        >
           <svg
             class="svg"
             xmlns="http://www.w3.org/2000/svg"
@@ -19,7 +25,13 @@
             />
           </svg>
         </a>
-        <a href="https://www.linkedin.com/in/hui-shun/" target="_blank" class="svg-link">
+        <a
+          href="https://www.linkedin.com/in/hui-shun/"
+          target="_blank"
+          class="svg-link"
+          v-b-tooltip.hover
+          title="LinkedIn"
+        >
           <svg
             class="svg"
             xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +44,7 @@
             />
           </svg>
         </a>
-        <a href="mailto:huishun98@gmail.com" class="svg-link">
+        <a href="mailto:huishun98@gmail.com" class="svg-link" v-b-tooltip.hover title="Email">
           <svg
             class="svg"
             xmlns="http://www.w3.org/2000/svg"
