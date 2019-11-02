@@ -57,10 +57,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "Projects"
-};
-</script>
+<script src="../js/projects.js"></script>
 
 <style scoped src="../styles/projects.css"></style>

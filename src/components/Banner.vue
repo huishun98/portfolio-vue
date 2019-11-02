@@ -50,10 +50,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "Banner"
-};
-</script>
+<script src="../js/banner.js"></script>
 
 <style scoped src="../styles/banner.css"></style>
