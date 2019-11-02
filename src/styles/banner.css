@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap");
+
+.banner {
+  height: 90vh;
+  font-family: Montserrat, sans-serif;
+  font-size: 72px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-media-buttons-group {
+  display: flex;
+  justify-content: space-evenly;
+}
+.svg {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  transition: opacity 0.2s;
+  display: block;
+}
+.svg-link {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  width: 42px;
+  background-color: var(--background-color-two);
+}
+.svg-link + .svg-link {
+  margin-left: 20px;
+}
+.svg:hover {
+  opacity: 0.5;
+}

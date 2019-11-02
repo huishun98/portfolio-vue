@@ -1,0 +1,11 @@
+.projects {
+    background-color: var(--background-color-three);
+}
+
+.card-link {
+    color: orange;
+    transition: opacity 0.2s;
+}
+.card-link:hover {
+    opacity: 0.5;
+}
