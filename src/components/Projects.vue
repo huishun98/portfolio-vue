@@ -3,7 +3,7 @@
     <h2 class="section-header">PROJECTS</h2>
     <div class="section-body">
       <div class="row section-width">
-        <div class="col-md-6">
+        <div class="col-md-6 card-wrapper">
           <div class="card text-white bg-dark mb-3">
             <img class="card-img-top" src="../assets/portfolio.gif" alt="Card image cap" />
             <div class="card-body">
@@ -26,7 +26,7 @@
           </div>
         </div>
 
-        <div class="col-md-6">
+        <div class="col-md-6 card-wrapper">
           <div class="card text-white bg-dark mb-3">
             <img class="card-img-top" src="../assets/telebot.png" alt="Card image cap" />
             <div class="card-body">
@@ -56,7 +56,7 @@
       </div>
 
       <div class="row section-width">
-        <div class="col-md-6">
+        <div class="col-md-6 card-wrapper">
           <div class="card text-white bg-dark mb-3">
             <img class="card-img-top" src="../assets/API.png" alt="Card image cap" />
             <div class="card-body">
@@ -84,7 +84,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 card-wrapper">
           <div class="card text-white bg-dark mb-3">
             <img class="card-img-top" src="../assets/fencing_scoreboard.png" alt="Card image cap" />
             <div class="card-body">
