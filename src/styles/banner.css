@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap");
-
 .banner {
   height: 90vh;
   font-family: Montserrat, sans-serif;
@@ -8,11 +7,31 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
+
+.banner-content {
+  z-index: 2;
+}
+
+.background {
+  background: url('../assets/developer.jpeg');
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0.3;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .social-media-buttons-group {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
+
 .svg {
   height: 40px;
   width: 40px;
@@ -20,6 +39,7 @@
   transition: opacity 0.2s;
   display: block;
 }
+
 .svg-link {
   border-radius: 50%;
   display: flex;
@@ -29,9 +49,11 @@
   width: 42px;
   background-color: var(--background-color-two);
 }
-.svg-link + .svg-link {
+
+.svg-link+.svg-link {
   margin-left: 20px;
 }
+
 .svg:hover {
   opacity: 0.5;
 }

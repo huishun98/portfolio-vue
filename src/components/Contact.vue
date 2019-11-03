@@ -1,7 +1,7 @@
 <template>
   <div class="contact container-fluid section">
     <h2 class="section-header">CONTACT ME</h2>
-    <form class="section-width" @submit.prevent="send">
+    <form class="section-width section-body" @submit.prevent="send">
       <div class="form-group">
         <label for="formGroupExampleInput">Name</label>
         <input
