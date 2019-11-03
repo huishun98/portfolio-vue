@@ -7,7 +7,7 @@
         <input
           type="text"
           class="form-control"
-          placeholder="John Appleseed"
+          placeholder="Hui Shun"
           v-model="name"
           required
         />
@@ -17,14 +17,14 @@
         <input
           type="email"
           class="form-control"
-          placeholder="name@example.com"
+          placeholder="huishun98@gmail.com"
           v-model="email"
           required
         />
       </div>
       <div class="form-group">
         <label for="exampleFormControlTextarea1">Message</label>
-        <textarea class="form-control" rows="5" v-model="msg" required></textarea>
+        <textarea class="form-control" rows="5" v-model="msg" placeholder="Leave a message..." required></textarea>
       </div>
       <button type="submit" class="btn btn-outline-light">Send</button>
     </form>
