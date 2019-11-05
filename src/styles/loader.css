@@ -1,0 +1,43 @@
+.loader {
+    background-color: var(--background-color-five);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+.loader-modal {
+    background-color: var(--background-color-five);
+    box-shadow: var(--box-shadow-one);
+    width: 95%;
+    height: 300px;
+    max-height: 90vh;
+    max-width: 900px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.loader-modal .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader-modal .btn {
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .loader-modal {
+        width: 50%;
+    }
+}

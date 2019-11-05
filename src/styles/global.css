@@ -3,7 +3,9 @@
     --background-color-two: white;
     --background-color-three: rgba(145, 145, 145, 0.1);
     --background-color-four: #343a40;
+    --background-color-five: rgba(0, 0, 0, 0.8);
     --text-color-one:  white;
+    --box-shadow-one: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .body {
