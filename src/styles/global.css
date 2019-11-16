@@ -44,3 +44,7 @@
 .section-body {
     margin-top: 90px;
 }
+
+a.btn.disabled {
+    opacity: 0.5;
+}
