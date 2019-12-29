@@ -1,16 +1,18 @@
 <template>
   <div class="projects container-fluid section">
     <h2 class="section-header">PROJECTS</h2>
-    <div class="section-body">
+    <div class="section-body section-width">
       <div class="row section-width">
         <div class="col-md-4 card-wrapper">
           <div class="card text-white bg-dark mb-3">
             <img class="card-img-top" src="../assets/django_blog.png" />
             <div class="card-body">
-              <h5 class="card-title">Blog</h5>
-              <p
-                class="card-text"
-              >A mobile responsive blog with a mobile responsive content management system.</p>
+              <h5 class="card-title">Customisable Personal Blog/Website Template</h5>
+              <p class="card-text">
+                UI, content management system and database are all fully customisable.
+                <br />
+                <br />Features include basic CRUD functionality, downloading and uploading of blog content for backup purposes as well as categorisation of posts.
+              </p>
               <p class="card-text">
                 Built using
                 <span class="highlight">Django (Python)</span> and
@@ -33,22 +35,26 @@
             </div>
           </div>
         </div>
-
         <div class="col-md-4 card-wrapper">
           <div class="card text-white bg-dark mb-3">
-            <img class="card-img-top" src="../assets/portfolio.gif" />
+            <img class="card-img-top" src="../assets/data_viz.png" />
             <div class="card-body">
-              <h5 class="card-title">HS Portfolio</h5>
-              <p class="card-text">A portfolio website.</p>
+              <h5 class="card-title">Data visualisation</h5>
+              <p
+                class="card-text"
+              >Simple visualisations of Singapore's National Track and Field Championships A Division 100m and 200m results over the years.</p>
               <p class="card-text">
-                Built using
-                <span class="highlight">Vue.js (JavaScript)</span>. Hosted on
-                <span class="highlight">Heroku</span>.
+                Used
+                <span class="highlight">Matplotlib (Python)</span>.
               </p>
               <div>
-                <a href="https://hs-portfolio.herokuapp.com/" target="_blank" class="card-link">Demo</a>
                 <a
-                  href="https://github.com/huishun98/portfolio"
+                  href="https://github.com/huishun98/tf-data-viz/blob/master/data_viz.ipynb"
+                  target="_blank"
+                  class="card-link"
+                >Demo</a>
+                <a
+                  href="https://github.com/huishun98/tf-data-viz"
                   target="_blank"
                   class="card-link"
                 >Code</a>
@@ -56,21 +62,26 @@
             </div>
           </div>
         </div>
-
         <div class="col-md-4 card-wrapper">
           <div class="card text-white bg-dark mb-3">
-            <img class="card-img-top" src="../assets/data_viz.png" />
+            <img class="card-img-top" src="../assets/portfolio.gif" />
             <div class="card-body">
-              <h5 class="card-title">Data visualisation</h5>
-              <p class="card-text">Simple visualisations of Singapore's National Track and Field Championships A Division 100m and 200m results over the years.</p>
+              <h5 class="card-title">HS Portfolio + Flask Mailer</h5>
+              <p
+                class="card-text"
+              >A portfolio website using a Flask application that receives POST requests to send emails to specified users.</p>
               <p class="card-text">
-                Used
-                <span class="highlight">Matplotlib (Python)</span>.
+                Portfolio website is built using
+                <span class="highlight">Vue.js (JavaScript)</span>.
+                Mailer is built using
+                <span class="highlight">Flask (Python)</span>.
+                Both are hosted on
+                <span class="highlight">Heroku</span>.
               </p>
               <div>
-                <a href="#" target="_blank" class="card-link btn disabled">Demo</a>
+                <a href="https://hs-portfolio.herokuapp.com/" target="_blank" class="card-link">Demo</a>
                 <a
-                  href="https://github.com/huishun98/tf-data-viz"
+                  href="https://github.com/huishun98/portfolio"
                   target="_blank"
                   class="card-link"
                 >Code</a>
@@ -110,25 +121,22 @@
         </div>
         <div class="col-md-4 card-wrapper">
           <div class="card text-white bg-dark mb-3">
-            <img class="card-img-top" src="../assets/API.png" />
+            <img class="card-img-top" src="../assets/huishun-cf.png" />
             <div class="card-body">
-              <h5 class="card-title">Flask Mailer</h5>
+              <h5 class="card-title">HS Coding Factory</h5>
               <p
                 class="card-text"
-              >A simple Flask application that receives POST requests to send emails to specified users.</p>
+              >A WordPress theme and site for me to document and share my coding journey.</p>
               <p class="card-text">
                 Built using
-                <span class="highlight">Flask (Python)</span>. Hosted on
+                <span class="highlight">PHP</span> and
+                <span class="highlight">JavaScript</span>. Hosted on
                 <span class="highlight">Heroku</span>.
               </p>
               <div>
+                <a href="https://huishun-cf.herokuapp.com/" target="_blank" class="card-link">Demo</a>
                 <a
-                  href="http://hs-flask-mailer.herokuapp.com/"
-                  target="_blank"
-                  class="card-link"
-                >Demo</a>
-                <a
-                  href="https://github.com/huishun98/flask-mailer"
+                  href="https://github.com/huishun98/huishun-cf"
                   target="_blank"
                   class="card-link"
                 >Code</a>
