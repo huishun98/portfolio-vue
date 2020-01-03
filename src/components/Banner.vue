@@ -3,7 +3,7 @@
     <div class="background"></div>
     <div class="container-fluid banner-content">
       <h1>HUI SHUN</h1>
-      <p class="section-description">Developer based in Singapore</p>
+      <p class="section-description">Developer from Singapore</p>
       <a class="btn btn-outline-light" href="/resume.pdf" download>Download Resume</a>
 
       <div class="social-media-buttons-group">
