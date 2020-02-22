@@ -5,7 +5,6 @@
       <h1>HUI SHUN</h1>
       <p class="section-description">Developer from Singapore</p>
       <a class="btn btn-outline-light" href="/resume.pdf" download>Download Resume</a>
-
       <div class="social-media-buttons-group">
         <a
           href="https://github.com/huishun98"

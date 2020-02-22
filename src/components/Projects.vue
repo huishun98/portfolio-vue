@@ -37,24 +37,22 @@
         </div>
         <div class="col-md-4 card-wrapper">
           <div class="card text-white bg-dark mb-3">
-            <img class="card-img-top" src="../assets/data_viz.png" />
+            <img class="card-img-top" src="../assets/huishun-cf.png" />
             <div class="card-body">
-              <h5 class="card-title">Data visualisation</h5>
+              <h5 class="card-title">HS Coding Factory</h5>
               <p
                 class="card-text"
-              >Simple visualisations of Singapore's National Track and Field Championships A Division 100m and 200m results over the years.</p>
+              >A WordPress theme and site for me to document and share my coding journey.</p>
               <p class="card-text">
-                Used
-                <span class="highlight">Matplotlib (Python)</span>.
+                Built using
+                <span class="highlight">PHP</span> and
+                <span class="highlight">JavaScript</span>. Hosted on
+                <span class="highlight">Heroku</span>.
               </p>
               <div>
+                <a href="https://huishun-cf.herokuapp.com/" target="_blank" class="card-link">Demo</a>
                 <a
-                  href="https://github.com/huishun98/tf-data-viz/blob/master/data_viz.ipynb"
-                  target="_blank"
-                  class="card-link"
-                >Demo</a>
-                <a
-                  href="https://github.com/huishun98/tf-data-viz"
+                  href="https://github.com/huishun98/huishun-cf"
                   target="_blank"
                   class="card-link"
                 >Code</a>
@@ -67,15 +65,11 @@
             <img class="card-img-top" src="../assets/portfolio.gif" />
             <div class="card-body">
               <h5 class="card-title">HS Portfolio + Flask Mailer</h5>
-              <p
-                class="card-text"
-              >A portfolio website using a Flask application that receives POST requests to send emails to specified users.</p>
+              <p class="card-text">A portfolio website.</p>
               <p class="card-text">
-                Portfolio website is built using
+                Built using
                 <span class="highlight">Vue.js (JavaScript)</span>.
-                Mailer is built using
-                <span class="highlight">Flask (Python)</span>.
-                Both are hosted on
+                Hosted on
                 <span class="highlight">Heroku</span>.
               </p>
               <div>
@@ -121,22 +115,24 @@
         </div>
         <div class="col-md-4 card-wrapper">
           <div class="card text-white bg-dark mb-3">
-            <img class="card-img-top" src="../assets/huishun-cf.png" />
+            <img class="card-img-top" src="../assets/data_viz.png" />
             <div class="card-body">
-              <h5 class="card-title">HS Coding Factory</h5>
+              <h5 class="card-title">Data visualisation</h5>
               <p
                 class="card-text"
-              >A WordPress theme and site for me to document and share my coding journey.</p>
+              >Simple visualisations of Singapore's National Track and Field Championships A Division 100m and 200m results over the years.</p>
               <p class="card-text">
-                Built using
-                <span class="highlight">PHP</span> and
-                <span class="highlight">JavaScript</span>. Hosted on
-                <span class="highlight">Heroku</span>.
+                Used
+                <span class="highlight">Matplotlib (Python)</span>.
               </p>
               <div>
-                <a href="https://huishun-cf.herokuapp.com/" target="_blank" class="card-link">Demo</a>
                 <a
-                  href="https://github.com/huishun98/huishun-cf"
+                  href="https://github.com/huishun98/tf-data-viz/blob/master/data_viz.ipynb"
+                  target="_blank"
+                  class="card-link"
+                >Demo</a>
+                <a
+                  href="https://github.com/huishun98/tf-data-viz"
                   target="_blank"
                   class="card-link"
                 >Code</a>

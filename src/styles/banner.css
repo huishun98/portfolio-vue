@@ -16,6 +16,7 @@
 
 .background {
   background: url('../assets/developer.jpeg');
+  background-attachment: fixed;
   position: absolute;
   top: 0;
   bottom: 0;
