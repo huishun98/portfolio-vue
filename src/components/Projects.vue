@@ -91,7 +91,7 @@
             <img class="card-img-top" src="../assets/telebot.png" />
             <div class="card-body">
               <h5 class="card-title">Happy Dinner Bot</h5>
-              <p class="card-text">A Telegram bot helping to organise dinners every day.</p>
+              <p class="card-text">A Telegram bot that helps to organise dinners every day.</p>
               <p class="card-text">
                 Built using
                 <span class="highlight">Node.js (JavaScript)</span> and
