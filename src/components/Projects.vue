@@ -64,7 +64,7 @@
           <div class="card text-white bg-dark mb-3">
             <img class="card-img-top" src="../assets/portfolio.gif" />
             <div class="card-body">
-              <h5 class="card-title">HS Portfolio + Flask Mailer</h5>
+              <h5 class="card-title">HS Portfolio</h5>
               <p class="card-text">A portfolio website.</p>
               <p class="card-text">
                 Built using
