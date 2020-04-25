@@ -1,11 +1,11 @@
 :root {
-    --background-color-one: black;
+    --background-color-one: #0F0F0F;
     --background-color-two: white;
-    --background-color-three: rgba(145, 145, 145, 0.1);
+    /* --background-color-three: #0F0F0F; */
     --background-color-four: #343a40;
     --background-color-five: rgba(0, 0, 0, 0.8);
-    --text-color-one:  white;
-    --box-shadow-one: 0 4px 8px 0 rgba(0,0,0,0.2);
+    --text-color-one: white;
+    --box-shadow-one: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .body {
@@ -15,6 +15,7 @@
     text-align: center;
     background: var(--background-color-one);
     color: var(--text-color-one);
+    font-weight: 300;
 }
 
 .section-header {
@@ -31,7 +32,7 @@
     padding: 90px 10px;
 }
 
-.section-width, .row.section-width{
+.section-width, .row.section-width {
     margin: auto;
     max-width: 900px;
 }

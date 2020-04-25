@@ -2,6 +2,7 @@
   <div id="app" class="body">
     <Banner />
     <Projects />
+    <Footer />
   </div>
 </template>
 
