@@ -120,7 +120,7 @@
               <h5 class="card-title">Data visualisation</h5>
               <p
                 class="card-text"
-              >Simple visualisations of Singapore's National Track and Field Championships A Division 100m and 200m results over the years.</p>
+              >Visualisations of Singapore's National Track and Field Championships A Division 100m and 200m results over the years.</p>
               <p class="card-text">
                 Used
                 <span class="highlight">Matplotlib (Python)</span>.
