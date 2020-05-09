@@ -40,9 +40,6 @@
         object-fit: cover;
     }
     .card-wrapper {
-        -ms-flex: 0 0 33.333333%;
-        -webkit-box-flex: 0;
-        flex: 0 0 33.333333%;
         max-width: 33.333333%;
     }
 }

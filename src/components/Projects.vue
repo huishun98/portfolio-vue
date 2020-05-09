@@ -32,6 +32,65 @@
       </div>
       <div class="card-wrapper">
         <div class="card text-white bg-dark mb-3">
+          <img class="card-img-top" src="../assets/springer_books.png" />
+          <div class="card-body">
+            <h5 class="card-title">Springer Books Navigator</h5>
+            <p class="card-text">An easy and fast way to download free books offered by Springer.</p>
+            <p class="card-text">
+              Built using
+              <span class="highlight">Vue.js (JavaScript)</span>. Hosted on
+              <span class="highlight">Heroku</span>. Integrated with
+              <span class="highlight">Google Analytics</span>.
+            </p>
+            <div>
+              <a
+                href="https://springer-books-links.herokuapp.com/"
+                target="_blank"
+                class="card-link"
+              >Demo</a>
+              <a
+                href="https://github.com/huishun98/springer-books"
+                target="_blank"
+                class="card-link"
+              >Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-wrapper">
+        <div class="card text-white bg-dark mb-3">
+          <img class="card-img-top" src="../assets/cb_quiz.png" />
+          <div class="card-body">
+            <h5 class="card-title">Circuit Breaker Personality Quiz</h5>
+            <p
+              class="card-text"
+            >A personality quiz about attitudes and feelings about the Circuit Breaker.</p>
+            <p class="card-text">
+              Data scraped using
+              <span class="highlight">Beautiful Soup</span>. Website built using
+              <span class="highlight">Vue.js (JavaScript)</span> and
+              <span class="highlight">Flask</span>. Used
+              <span class="highlight">Google Sheets API</span> to store results in Google Sheets. Hosted on
+              <span class="highlight">Heroku</span>.
+            </p>
+            <p class="card-text">Code will be made available when Circuit Breaker ends.</p>
+            <div>
+              <a
+                href="https://circuit-breaker-personality.herokuapp.com/"
+                target="_blank"
+                class="card-link"
+              >Demo</a>
+              <a
+                target="_blank"
+                href="https://github.com/huishun98/trivia-quiz-client"
+                class="card-link disabled"
+              >Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-wrapper">
+        <div class="card text-white bg-dark mb-3">
           <img class="card-img-top" src="../assets/huishun-cf.png" />
           <div class="card-body">
             <h5 class="card-title">HS Coding Factory</h5>
@@ -57,7 +116,7 @@
       </div>
       <div class="card-wrapper">
         <div class="card text-white bg-dark mb-3">
-          <img class="card-img-top" src="../assets/portfolio.gif" />
+          <img class="card-img-top" src="../assets/portfolio.png" />
           <div class="card-body">
             <h5 class="card-title">HS Portfolio</h5>
             <p class="card-text">A portfolio website.</p>
@@ -71,33 +130,6 @@
               <a href="https://hs-portfolio.herokuapp.com/" target="_blank" class="card-link">Demo</a>
               <a
                 href="https://github.com/huishun98/portfolio"
-                target="_blank"
-                class="card-link"
-              >Code</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card-wrapper">
-        <div class="card text-white bg-dark mb-3">
-          <img class="card-img-top" src="../assets/telebot.png" />
-          <div class="card-body">
-            <h5 class="card-title">Happy Dinner Bot</h5>
-            <p class="card-text">A Telegram bot that helps to organise dinners every day.</p>
-            <p class="card-text">
-              Built using
-              <span class="highlight">Node.js (JavaScript)</span> and
-              <span class="highlight">MongoDB</span>. Hosted on
-              <span class="highlight">Heroku</span>.
-            </p>
-            <div>
-              <a
-                href="https://web.telegram.org/#/im?p=@happy_dinner_bot"
-                target="_blank"
-                class="card-link"
-              >Demo</a>
-              <a
-                href="https://github.com/huishun98/happy-dinner-bot-public"
                 target="_blank"
                 class="card-link"
               >Code</a>
@@ -134,6 +166,33 @@
       </div>
       <div class="card-wrapper">
         <div class="card text-white bg-dark mb-3">
+          <img class="card-img-top" src="../assets/telebot.png" />
+          <div class="card-body">
+            <h5 class="card-title">Happy Dinner Bot</h5>
+            <p class="card-text">A Telegram bot that helps to organise dinners every day.</p>
+            <p class="card-text">
+              Built using
+              <span class="highlight">Node.js (JavaScript)</span> and
+              <span class="highlight">MongoDB</span>. Hosted on
+              <span class="highlight">Heroku</span>.
+            </p>
+            <div>
+              <a
+                href="https://web.telegram.org/#/im?p=@happy_dinner_bot"
+                target="_blank"
+                class="card-link"
+              >Demo</a>
+              <a
+                href="https://github.com/huishun98/happy-dinner-bot-public"
+                target="_blank"
+                class="card-link"
+              >Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-wrapper">
+        <div class="card text-white bg-dark mb-3">
           <img class="card-img-top" src="../assets/fencing_scoreboard.png" />
           <div class="card-body">
             <h5 class="card-title">Fencing Scoreboard</h5>
@@ -149,7 +208,7 @@
                 target="_blank"
                 class="card-link"
               >Demo</a>
-              <a href="#" class="card-link btn disabled">Code</a>
+              <a href="#" class="card-link disabled">Code</a>
             </div>
           </div>
         </div>
