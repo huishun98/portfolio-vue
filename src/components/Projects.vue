@@ -38,7 +38,7 @@
             <p class="card-text">An easy and fast way to download free books offered by Springer.</p>
             <p class="card-text">
               Data scraped using
-              <span class="highlight">Beautiful Soup</span>. Website built using
+              <span class="highlight">Beautiful Soup (Python)</span>. Website built using
               <span class="highlight">Vue.js (JavaScript)</span>. Hosted on
               <span class="highlight">Heroku</span>. Integrated with
               <span class="highlight">Google Analytics</span>.
