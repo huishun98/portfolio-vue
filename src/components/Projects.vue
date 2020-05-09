@@ -37,7 +37,8 @@
             <h5 class="card-title">Springer Books Navigator</h5>
             <p class="card-text">An easy and fast way to download free books offered by Springer.</p>
             <p class="card-text">
-              Built using
+              Data scraped using
+              <span class="highlight">Beautiful Soup</span>. Website built using
               <span class="highlight">Vue.js (JavaScript)</span>. Hosted on
               <span class="highlight">Heroku</span>. Integrated with
               <span class="highlight">Google Analytics</span>.
@@ -66,8 +67,7 @@
               class="card-text"
             >A personality quiz about attitudes and feelings about the Circuit Breaker.</p>
             <p class="card-text">
-              Data scraped using
-              <span class="highlight">Beautiful Soup</span>. Website built using
+              Built using
               <span class="highlight">Vue.js (JavaScript)</span> and
               <span class="highlight">Flask</span>. Used
               <span class="highlight">Google Sheets API</span> to store results in Google Sheets. Hosted on
