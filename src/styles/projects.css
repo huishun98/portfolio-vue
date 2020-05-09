@@ -28,11 +28,21 @@
 
 .card-wrapper {
     margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 @media only screen and (min-width: 768px) {
     .card-img-top {
         height: 180px;
         object-fit: cover;
+    }
+    .card-wrapper {
+        -ms-flex: 0 0 33.333333%;
+        -webkit-box-flex: 0;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
     }
 }

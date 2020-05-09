@@ -35,6 +35,8 @@
 .section-width, .row.section-width {
     margin: auto;
     max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .section-description {
