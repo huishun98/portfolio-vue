@@ -5,6 +5,7 @@
     --background-color-four: #343a40;
     --background-color-five: rgba(0, 0, 0, 0.8);
     --text-color-one: white;
+    --text-color-two: #949494;
     --box-shadow-one: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -17,6 +18,8 @@
     color: var(--text-color-one);
     font-weight: 300;
 }
+
+/* section */
 
 .section-header {
     font-family: Montserrat, sans-serif;
@@ -48,7 +51,19 @@
     margin-top: 90px;
 }
 
+/* link */
+
 .disabled {
     opacity: 0.5;
     pointer-events: none;
+}
+
+.disabled.card-link {
+    color: var(--text-color-two);
+}
+
+/* image */
+
+.card-img-top.object-top {
+    object-position: top;
 }

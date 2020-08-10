@@ -4,6 +4,40 @@
     <div class="section-body section-width">
       <div class="card-wrapper">
         <div class="card text-white bg-dark mb-3">
+          <img class="card-img-top object-top" src="../assets/songdedi.png" />
+          <div class="card-body">
+            <h5 class="card-title">SongDedi</h5>
+            <p
+              class="card-text"
+            >A free song dedication service suitable for weddings, parties or any event.</p>
+            <p
+              class="card-text"
+            >Anyone can contribute to your playlist. Your playlist will update in real time.</p>
+            <p class="card-text">
+              Built using
+              <span class="highlight">Vue.js (JavaScript)</span> and
+              <span class="highlight">Flask (Python)</span>.
+              Authentication, data storage and media storage done using
+              <span class="highlight">Firebase</span>.
+              Hosted on
+              <span class="highlight">Heroku</span>.
+            </p>
+            <p
+              class="card-text"
+            >Code is private.</p>
+            <div>
+              <a href="https://songdedi-admin.herokuapp.com/" target="_blank" class="card-link">Demo</a>
+              <a
+                href="https://github.com/huishun98/songdedi-admin"
+                target="_blank"
+                class="card-link disabled"
+              >Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-wrapper">
+        <div class="card text-white bg-dark mb-3">
           <img class="card-img-top" src="../assets/django_blog.png" />
           <div class="card-body">
             <h5 class="card-title">Customisable Personal Blog/Website Template</h5>
@@ -69,7 +103,7 @@
             <p class="card-text">
               Built using
               <span class="highlight">Vue.js (JavaScript)</span> and
-              <span class="highlight">Flask</span>. Used
+              <span class="highlight">Flask (Python)</span>. Used
               <span class="highlight">Google Sheets API</span> to store results in Google Sheets. Hosted on
               <span class="highlight">Heroku</span>.
             </p>
@@ -83,7 +117,7 @@
               <a
                 target="_blank"
                 href="https://github.com/huishun98/trivia-quiz-client"
-                class="card-link disabled"
+                class="card-link"
               >Code</a>
             </div>
           </div>
@@ -114,7 +148,8 @@
           </div>
         </div>
       </div>
-      <div class="card-wrapper">
+
+      <!-- <div class="card-wrapper">
         <div class="card text-white bg-dark mb-3">
           <img class="card-img-top" src="../assets/portfolio.png" />
           <div class="card-body">
@@ -136,7 +171,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div>-->
       <div class="card-wrapper">
         <div class="card text-white bg-dark mb-3">
           <img class="card-img-top" src="../assets/data_viz.png" />
@@ -164,7 +199,7 @@
           </div>
         </div>
       </div>
-      <div class="card-wrapper">
+      <!-- <div class="card-wrapper">
         <div class="card text-white bg-dark mb-3">
           <img class="card-img-top" src="../assets/telebot.png" />
           <div class="card-body">
@@ -190,8 +225,8 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="card-wrapper">
+      </div>-->
+      <!-- <div class="card-wrapper">
         <div class="card text-white bg-dark mb-3">
           <img class="card-img-top" src="../assets/fencing_scoreboard.png" />
           <div class="card-body">
@@ -212,7 +247,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div>-->
     </div>
   </div>
 </template>
