@@ -107,7 +107,6 @@
               <span class="highlight">Google Sheets API</span> to store results in Google Sheets. Hosted on
               <span class="highlight">Heroku</span>.
             </p>
-            <p class="card-text">Code will be made available when Circuit Breaker ends.</p>
             <div>
               <a
                 href="https://circuit-breaker-personality.herokuapp.com/"
