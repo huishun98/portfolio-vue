@@ -5,7 +5,7 @@
     --background-color-four: #343a40;
     --background-color-five: rgba(0, 0, 0, 0.8);
     --text-color-one: white;
-    --text-color-two: #949494;
+    --text-color-two: #afafaf;
     --box-shadow-one: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -37,7 +37,7 @@
 
 .section-width, .row.section-width {
     margin: auto;
-    max-width: 900px;
+    max-width: 1100px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -48,7 +48,13 @@
 }
 
 .section-body {
-    margin-top: 90px;
+    margin-top: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+    .section-body {
+        margin-top: 90px;
+    }
 }
 
 /* link */

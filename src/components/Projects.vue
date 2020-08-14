@@ -18,13 +18,14 @@
               <span class="highlight">Vue.js (JavaScript)</span> and
               <span class="highlight">Flask (Python)</span>.
               Authentication, data storage and media storage done using
-              <span class="highlight">Firebase</span>.
+              <span
+                class="highlight"
+              >Firebase</span>.
               Hosted on
-              <span class="highlight">Heroku</span>.
+              <span class="highlight">Heroku</span>. Integrated with
+              <span class="highlight">Google Analytics</span>.
             </p>
-            <p
-              class="card-text"
-            >Code is private.</p>
+            <p class="card-text">Code is private.</p>
             <div>
               <a href="https://songdedi-admin.herokuapp.com/" target="_blank" class="card-link">Demo</a>
               <a
@@ -100,6 +101,7 @@
             <p
               class="card-text"
             >A personality quiz about attitudes and feelings about the Circuit Breaker.</p>
+            <p class="card-text">More than 400 responses were garnered within 24 hours of launch.</p>
             <p class="card-text">
               Built using
               <span class="highlight">Vue.js (JavaScript)</span> and
@@ -147,30 +149,6 @@
           </div>
         </div>
       </div>
-
-      <!-- <div class="card-wrapper">
-        <div class="card text-white bg-dark mb-3">
-          <img class="card-img-top" src="../assets/portfolio.png" />
-          <div class="card-body">
-            <h5 class="card-title">HS Portfolio</h5>
-            <p class="card-text">A portfolio website.</p>
-            <p class="card-text">
-              Built using
-              <span class="highlight">Vue.js (JavaScript)</span>.
-              Hosted on
-              <span class="highlight">Heroku</span>.
-            </p>
-            <div>
-              <a href="https://hs-portfolio.herokuapp.com/" target="_blank" class="card-link">Demo</a>
-              <a
-                href="https://github.com/huishun98/portfolio"
-                target="_blank"
-                class="card-link"
-              >Code</a>
-            </div>
-          </div>
-        </div>
-      </div>-->
       <div class="card-wrapper">
         <div class="card text-white bg-dark mb-3">
           <img class="card-img-top" src="../assets/data_viz.png" />
@@ -198,7 +176,7 @@
           </div>
         </div>
       </div>
-      <!-- <div class="card-wrapper">
+      <div class="card-wrapper">
         <div class="card text-white bg-dark mb-3">
           <img class="card-img-top" src="../assets/telebot.png" />
           <div class="card-body">
@@ -224,8 +202,31 @@
             </div>
           </div>
         </div>
-      </div>-->
-      <!-- <div class="card-wrapper">
+      </div>
+      <div class="card-wrapper">
+        <div class="card text-white bg-dark mb-3">
+          <img class="card-img-top" src="../assets/portfolio.png" />
+          <div class="card-body">
+            <h5 class="card-title">HS Portfolio</h5>
+            <p class="card-text">A portfolio website.</p>
+            <p class="card-text">
+              Built using
+              <span class="highlight">Vue.js (JavaScript)</span>.
+              Hosted on
+              <span class="highlight">Heroku</span>.
+            </p>
+            <div>
+              <a href="https://hs-portfolio.herokuapp.com/" target="_blank" class="card-link">Demo</a>
+              <a
+                href="https://github.com/huishun98/portfolio"
+                target="_blank"
+                class="card-link"
+              >Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-wrapper">
         <div class="card text-white bg-dark mb-3">
           <img class="card-img-top" src="../assets/fencing_scoreboard.png" />
           <div class="card-body">
@@ -246,7 +247,7 @@
             </div>
           </div>
         </div>
-      </div>-->
+      </div>
     </div>
   </div>
 </template>
