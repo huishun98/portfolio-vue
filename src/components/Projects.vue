@@ -184,8 +184,8 @@
             <p class="card-text">A Telegram bot that helps to organise dinners every day.</p>
             <p class="card-text">
               Built using
-              <span class="highlight">Node.js (JavaScript)</span> and
-              <span class="highlight">MongoDB</span>. Hosted on
+              <span class="highlight">Node.js (JavaScript)</span>. Data stored on
+              <span class="highlight">AWS with MongoDB Atlas</span>. Hosted on
               <span class="highlight">Heroku</span>.
             </p>
             <div>
