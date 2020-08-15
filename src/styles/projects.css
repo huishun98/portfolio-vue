@@ -1,6 +1,11 @@
 .card-link {
-    color: orange;
+    color: #AACCFF;
     transition: opacity 0.2s;
+    margin: 2px 6px;
+}
+
+.flex-col .card-link+.card-link {
+    margin-left: 6px;
 }
 
 .card-link:hover {
@@ -21,9 +26,13 @@
     justify-content: space-between;
 }
 
-.highlight {
+.highlight, .description {
     font-weight: bold;
     font-style: italic;
+}
+
+.description {
+    color: orange;
 }
 
 .card-wrapper {
@@ -46,4 +55,14 @@
         margin-right: 0;
         width: 100%;
     }
+}
+
+.collapsed {
+    max-height: 0;
+    overflow-y: hidden;
+    transition: max-height 0.5s;
+}
+
+.collapsed.active {
+    max-height: 500px;
 }
