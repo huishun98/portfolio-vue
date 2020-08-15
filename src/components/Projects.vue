@@ -148,7 +148,7 @@
                 <span class="highlight">Django (Python)</span> and
                 <span class="highlight">vanilla JavaScript</span>. Data and media stored using
                 <span class="highlight">PostgreSQL</span> and hosted on
-                <span class="highlight">Amazon S3</span>. Site hosted on
+                <span class="highlight">Amazon S3</span>. Application hosted on
                 <span class="highlight">Heroku</span>.
               </p>
             </div>
