@@ -6,25 +6,28 @@
         <div class="card text-white bg-dark mb-3">
           <img class="card-img-top object-top" src="../assets/songdedi.png" />
           <div class="card-body">
-            <h5 class="card-title">SongDedi</h5>
-            <p
-              class="card-text description"
-            >A free song dedication service suitable for weddings, parties or any event.</p>
-            <p
-              class="card-text"
-            >Anyone can contribute to your playlist. Your playlist will update in real time.</p>
-            <p class="card-text">
-              Built using
-              <span class="highlight">Vue.js (JavaScript)</span> and
-              <span class="highlight">Flask (Python)</span>.
-              Google authentication, data storage and media storage done using
-              <span
-                class="highlight"
-              >Firebase</span>.
-              Hosted on
-              <span class="highlight">Heroku</span>. Integrated with
-              <span class="highlight">Google Analytics</span>.
-            </p>
+            <div>
+              <h5 class="card-title">SongDedi</h5>
+              <p
+                class="card-text description"
+              >A free song dedication service suitable for weddings, parties or any event.</p>
+              <p
+                class="card-text"
+              >Anyone can contribute to your playlist. Your playlist will update in real time.</p>
+              <p class="card-text">
+                Built using
+                <span class="highlight">Vue.js (JavaScript)</span> and
+                <span class="highlight">Flask (Python)</span>.
+                Google authentication, data storage and media storage done using
+                <span
+                  class="highlight"
+                >Firebase</span>.
+                Hosted on
+                <span class="highlight">Heroku</span>. Integrated with
+                <span class="highlight">Google Analytics</span>.
+              </p>
+            </div>
+
             <div class="flex-col">
               <a
                 href="https://songdedi-admin.herokuapp.com/"
@@ -132,21 +135,23 @@
         <div class="card text-white bg-dark mb-3">
           <img class="card-img-top" src="../assets/django_blog.png" />
           <div class="card-body">
-            <h5 class="card-title">Customisable Personal Blog/Website Template</h5>
-            <p
-              class="card-text description"
-            >A template that gives content creators full control over the design of their site and content management system.</p>
-            <p
-              class="card-text"
-            >Features include basic CRUD functionality, downloading and uploading of blog content for backup purposes as well as categorisation of posts.</p>
-            <p class="card-text">
-              Built using
-              <span class="highlight">Django (Python)</span> and
-              <span class="highlight">vanilla JavaScript</span>. Data and media stored using
-              <span class="highlight">PostgreSQL</span> and hosted on
-              <span class="highlight">Amazon S3</span>. Site hosted on
-              <span class="highlight">Heroku</span>.
-            </p>
+            <div>
+              <h5 class="card-title">Customisable Personal Blog/Website Template</h5>
+              <p
+                class="card-text description"
+              >A template that gives content creators full control over the design of their site and content management system.</p>
+              <p
+                class="card-text"
+              >Features include basic CRUD functionality, downloading and uploading of blog content for backup purposes as well as categorisation of posts.</p>
+              <p class="card-text">
+                Built using
+                <span class="highlight">Django (Python)</span> and
+                <span class="highlight">vanilla JavaScript</span>. Data and media stored using
+                <span class="highlight">PostgreSQL</span> and hosted on
+                <span class="highlight">Amazon S3</span>. Site hosted on
+                <span class="highlight">Heroku</span>.
+              </p>
+            </div>
             <div>
               <a href="https://hs-django-blog.herokuapp.com/" target="_blank" class="card-link">Demo</a>
               <a
@@ -162,18 +167,20 @@
         <div class="card text-white bg-dark mb-3">
           <img class="card-img-top" src="../assets/springer_books.png" />
           <div class="card-body">
-            <h5 class="card-title">Springer Books Navigator</h5>
-            <p
-              class="card-text description"
-            >An easy and fast way to download free books offered by Springer.</p>
-            <p class="cart-text">Acquired 186 users from 10 countries.</p>
-            <p class="card-text">
-              Data scraped using
-              <span class="highlight">BeautifulSoup (Python)</span>. Website built using
-              <span class="highlight">Vue.js (JavaScript)</span>. Hosted on
-              <span class="highlight">Heroku</span>. Integrated with
-              <span class="highlight">Google Analytics</span>.
-            </p>
+            <div>
+              <h5 class="card-title">Springer Books Navigator</h5>
+              <p
+                class="card-text description"
+              >An easy and fast way to download free books offered by Springer.</p>
+              <p class="cart-text">Acquired 186 users from 10 countries.</p>
+              <p class="card-text">
+                Data scraped using
+                <span class="highlight">BeautifulSoup (Python)</span>. Website built using
+                <span class="highlight">Vue.js (JavaScript)</span>. Hosted on
+                <span class="highlight">Heroku</span>. Integrated with
+                <span class="highlight">Google Analytics</span>.
+              </p>
+            </div>
             <div>
               <a
                 href="https://springer-books-links.herokuapp.com/"
@@ -193,18 +200,20 @@
         <div class="card text-white bg-dark mb-3">
           <img class="card-img-top" src="../assets/cb_quiz.png" />
           <div class="card-body">
-            <h5 class="card-title">Circuit Breaker Personality Quiz</h5>
-            <p
-              class="card-text description"
-            >A personality quiz about attitudes and feelings about the Circuit Breaker.</p>
-            <p class="card-text">More than 400 responses were garnered within 24 hours of launch.</p>
-            <p class="card-text">
-              Built using
-              <span class="highlight">Vue.js (JavaScript)</span> and
-              <span class="highlight">Flask (Python)</span>. Used
-              <span class="highlight">Google Sheets API</span> to store results in Google Sheets. Hosted on
-              <span class="highlight">Heroku</span>.
-            </p>
+            <div>
+              <h5 class="card-title">Circuit Breaker Personality Quiz</h5>
+              <p
+                class="card-text description"
+              >A personality quiz about attitudes and feelings about the Circuit Breaker.</p>
+              <p class="card-text">More than 400 responses were garnered within 24 hours of launch.</p>
+              <p class="card-text">
+                Built using
+                <span class="highlight">Vue.js (JavaScript)</span> and
+                <span class="highlight">Flask (Python)</span>. Used
+                <span class="highlight">Google Sheets API</span> to store results in Google Sheets. Hosted on
+                <span class="highlight">Heroku</span>.
+              </p>
+            </div>
             <div>
               <a
                 href="https://circuit-breaker-personality.herokuapp.com/"
@@ -224,16 +233,18 @@
         <div class="card text-white bg-dark mb-3">
           <img class="card-img-top" src="../assets/huishun-cf.png" />
           <div class="card-body">
-            <h5 class="card-title">HS Coding Factory</h5>
-            <p
-              class="card-text description"
-            >A WordPress theme and site for me to document and share my coding journey.</p>
-            <p class="card-text">
-              Built using
-              <span class="highlight">PHP</span> and
-              <span class="highlight">JavaScript</span>. Hosted on
-              <span class="highlight">Heroku</span>.
-            </p>
+            <div>
+              <h5 class="card-title">HS Coding Factory</h5>
+              <p
+                class="card-text description"
+              >A WordPress theme and site for me to document and share my coding journey.</p>
+              <p class="card-text">
+                Built using
+                <span class="highlight">PHP</span> and
+                <span class="highlight">JavaScript</span>. Hosted on
+                <span class="highlight">Heroku</span>.
+              </p>
+            </div>
             <div>
               <a
                 href="https://huishun-cf.herokuapp.com/"
@@ -253,14 +264,16 @@
         <div class="card text-white bg-dark mb-3">
           <img class="card-img-top" src="../assets/data_viz.png" />
           <div class="card-body">
-            <h5 class="card-title">Data visualisation</h5>
-            <p
-              class="card-text description"
-            >Visualisations of Singapore's National Track and Field Championships A Division 100m and 200m results over the years.</p>
-            <p class="card-text">
-              Used
-              <span class="highlight">Matplotlib (Python)</span>.
-            </p>
+            <div>
+              <h5 class="card-title">Data visualisation</h5>
+              <p
+                class="card-text description"
+              >Visualisations of Singapore's National Track and Field Championships A Division 100m and 200m results over the years.</p>
+              <p class="card-text">
+                Used
+                <span class="highlight">Matplotlib (Python)</span>.
+              </p>
+            </div>
             <div>
               <a
                 href="https://github.com/huishun98/tf-data-viz/blob/master/data_viz.ipynb"
@@ -280,16 +293,18 @@
         <div class="card text-white bg-dark mb-3">
           <img class="card-img-top" src="../assets/telebot.png" />
           <div class="card-body">
-            <h5 class="card-title">Happy Dinner Bot</h5>
-            <p
-              class="card-text description"
-            >A Telegram bot that helps to organise dinners every day.</p>
-            <p class="card-text">
-              Built using
-              <span class="highlight">Node.js (JavaScript)</span>. Data stored on
-              <span class="highlight">AWS with MongoDB Atlas</span>. Hosted on
-              <span class="highlight">Heroku</span>.
-            </p>
+            <div>
+              <h5 class="card-title">Happy Dinner Bot</h5>
+              <p
+                class="card-text description"
+              >A Telegram bot that helps to organise dinners every day.</p>
+              <p class="card-text">
+                Built using
+                <span class="highlight">Node.js (JavaScript)</span>. Data stored on
+                <span class="highlight">AWS with MongoDB Atlas</span>. Hosted on
+                <span class="highlight">Heroku</span>.
+              </p>
+            </div>
             <div>
               <a
                 href="https://web.telegram.org/#/im?p=@happy_dinner_bot"
@@ -309,14 +324,16 @@
         <div class="card text-white bg-dark mb-3">
           <img class="card-img-top" src="../assets/portfolio.png" />
           <div class="card-body">
-            <h5 class="card-title">HS Portfolio</h5>
-            <p class="card-text description">A portfolio website.</p>
-            <p class="card-text">
-              Built using
-              <span class="highlight">Vue.js (JavaScript)</span>.
-              Hosted on
-              <span class="highlight">Heroku</span>.
-            </p>
+            <div>
+              <h5 class="card-title">HS Portfolio</h5>
+              <p class="card-text description">A portfolio website.</p>
+              <p class="card-text">
+                Built using
+                <span class="highlight">Vue.js (JavaScript)</span>.
+                Hosted on
+                <span class="highlight">Heroku</span>.
+              </p>
+            </div>
             <div>
               <a
                 href="https://hs-portfolio.herokuapp.com/"
